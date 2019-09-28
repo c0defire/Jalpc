@@ -1,30 +1,91 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: IP Secure
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Providing incident handling and analysis to support 24x7x365 operations.
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Sept. 2019
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Incident Handler
     i18n: company_a_job
   icon: fa-plus-square
   present: true
 
+# - name:
+#    detail: Synack
+#    i18n: company_b
+#  desc:
+#    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
+#    i18n: company_b_desc
+#  date:
+#    detail: Aug. 2019
+#    i18n: company_b_date
+#  job:
+#    detail: Synack Red Team Hacker
+#    i18n: company_b_job
+#  icon: fa-plus-square
+#  present: true
+
 - name:
-    detail: Company B
+    detail: Hackerone
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Active participant in both public and private bug bounty programs through responsible disclosure of application security vulnerabilities (Web & mobile) to high-profile organizations using HackerOne platform.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Dec. 2016
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Bug Bounty Hunter
     i18n: company_b_job
   icon: fa-plus-square
+  present: true
+
+- name:
+    detail: AT&T UC - Insight Global
+    i18n: company_b
+  desc:
+    detail: Provided both strategic analysis and near real-time auditing, investigating, reporting, coordinating and tracking of security-related activities for the AT&T SOC.
+    i18n: company_b_desc
+  date:
+    detail: Jan. 2019 - Jul. 2019
+    i18n: company_b_date
+  job:
+    detail: Cyber Security Analyst
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: 22nd Century Technologies
+    i18n: company_b
+  desc:
+    detail: Provided both strategic analysis and near real-time auditing, investigating, reporting, coordinating and tracking of security-related activities for the USAF SOC.
+    i18n: company_b_desc
+  date:
+    detail: Oct. 2017 - Jan. 2019
+    i18n: company_b_date
+  job:
+    detail: Cyber Security Analyst
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Avue Technologies Corp
+    i18n: company_b
+  desc:
+    detail: Maintained AWS Cloud Server’s performance and uptime by determining the best, easily deployable, least intrusive security solutions necessary to satisfy FedRAMP security requirements.
+    i18n: company_b_desc
+  date:
+    detail: Jan. 2016 - Apr. 2017
+    i18n: company_b_date
+  job:
+    detail: Intern, Security DevOps Engineer
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false

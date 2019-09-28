@@ -1,22 +1,58 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: XSStrike
+  i18n: XSStrike
+  gh_user: s0md3v
+  repo: XSStrike
+  img: /static/assets/img/github_images/XSStrike.png
+  desc: Fork Repo - Most advanced XSS scanner.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: glances
+  i18n: glances
+  gh_user: nicolargo
+  repo: glances
+  img: /static/assets/img/github_images/Glances.png
+  desc: Fork Repo - A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: flux
+  i18n: flux
+  gh_user: samyoyo
+  repo: flux
+  img: /static/assets/img/github_images/GitHub_Repo.png
+  desc: Fork Repo - WIFI CRACKER
+
+- name: airgeddon
+  i18n: airgeddon
+  gh_user: v1s1t0r1sh3r3
+  repo: airgeddon
+  img: /static/assets/img/github_images/airgeddon.png
+  desc: Fork Repo - This is a multi-use bash script for Linux systems to audit wireless networks.
+
+- name: GeoIpLocator
+  i18n: GeoIpLocator
+  gh_user: c0defire
+  repo: GeoIpLocator
+  img: /static/assets/img/github_images/GitHub_Repo.png
+  desc: This script analyses your auth.log for failed attempts.
+
+- name: Shell-Scripts
+  i18n: Shell-Scripts
+  gh_user: c0defire
+  repo: Shell-Scripts
+  img: /static/assets/img/github_images/GitHub_Repo.png
+  desc: Collection of bash scripts.
+
+- name: HostLocate
+  i18n: HostLocate
+  gh_user: c0defire
+  repo: javieHostLocaterfaustino
+  img: /static/assets/img/github_images/GitHub_Repo.png
+  desc: Finds hosts on network using ping.
+
+- name: javierfaustino.com
+  i18n: javierfaustino.com
+  gh_user: c0defire
+  repo: javierfaustino.com
+  img: /static/assets/img/github_images/GitHub_Repo.png
+  desc: Fork Repo - Personal Website
