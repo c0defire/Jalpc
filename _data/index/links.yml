@@ -1,6 +1,18 @@
 # links section data
 - last_name: Faustino
   first_name: Javier
-  desc: Hacker
-  website:
-  email: c0d3fire@gmail.com
+  desc: 'LinkedIn'
+  website: 'https://www.linkedin.com/in/javierfaustino'
+  email: 'c0d3fire@gmail.com'
+
+- last_name: c0defire
+  first_name:
+  desc: 'GitHub'
+  website: 'https://github.com/c0defire'
+  email: 'c0d3fire@gmail.com'
+
+- last_name: c0defire
+  first_name:
+  desc: 'Twitter'
+  website: 'https://twitter.com/c0defire'
+  email: 'c0d3fire@gmail.com'

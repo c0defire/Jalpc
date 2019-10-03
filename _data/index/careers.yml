@@ -1,6 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Western Governors University
+    i18n: company_b
+  desc:
+    detail: Studied Cyber Security at Western Governors University, persuing a Masters in Cyber Security.
+    i18n: company_b_desc
+  date:
+    detail: Dec. 2019
+    i18n: company_b_date
+  job:
+    detail: College Student
+    i18n: company_b_job
+  icon: fa-university
+  present: true
+
+- name:
     detail: IP Secure
     i18n: company_a
   desc:
@@ -12,23 +27,23 @@
   job:
     detail: Incident Handler
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-briefcase
   present: true
 
-# - name:
-#    detail: Synack
-#    i18n: company_b
-#  desc:
-#    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
-#    i18n: company_b_desc
-#  date:
-#    detail: Aug. 2019
-#    i18n: company_b_date
-#  job:
-#    detail: Synack Red Team Hacker
-#    i18n: company_b_job
-#  icon: fa-plus-square
-#  present: true
+- name:
+    detail: Synack
+    i18n: company_b
+  desc:
+    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
+    i18n: company_b_desc
+  date:
+    detail: Aug. 2019
+    i18n: company_b_date
+  job:
+    detail: Synack Red Team Hacker
+    i18n: company_b_job
+  icon: fa-terminal
+  present: true
 
 - name:
     detail: Hackerone
@@ -42,7 +57,7 @@
   job:
     detail: Bug Bounty Hunter
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-terminal
   present: true
 
 - name:
@@ -57,7 +72,7 @@
   job:
     detail: Cyber Security Analyst
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-briefcase
   present: false
 
 - name:
@@ -72,7 +87,7 @@
   job:
     detail: Cyber Security Analyst
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-briefcase
   present: false
 
 - name:
@@ -87,5 +102,5 @@
   job:
     detail: Intern, Security DevOps Engineer
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-briefcase
   present: false
