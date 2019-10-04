@@ -30,20 +30,20 @@
   icon: fa-briefcase
   present: true
 
-- name:
-    detail: Synack
-    i18n: company_b
-  desc:
-    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
-    i18n: company_b_desc
-  date:
-    detail: Aug. 2019
-    i18n: company_b_date
-  job:
-    detail: Synack Red Team Hacker
-    i18n: company_b_job
-  icon: fa-terminal
-  present: true
+#- name:
+#    detail: Synack
+#    i18n: company_b
+#  desc:
+#    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
+#    i18n: company_b_desc
+#  date:
+#    detail: Aug. 2019
+#    i18n: company_b_date
+#  job:
+#    detail: Synack Red Team Hacker
+#    i18n: company_b_job
+#  icon: fa-terminal
+#  present: true
 
 - name:
     detail: Hackerone
