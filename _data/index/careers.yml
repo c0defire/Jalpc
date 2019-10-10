@@ -15,20 +15,20 @@
   icon: fa-university
   present: true
 
-- name:
-    detail: IP Secure
-    i18n: company_a
-  desc:
-    detail: Providing incident handling and analysis to support 24x7x365 operations.
-    i18n: company_a_desc
-  date:
-    detail: Sept. 2019
-    i18n: company_a_date
-  job:
-    detail: Incident Handler
-    i18n: company_a_job
-  icon: fa-briefcase
-  present: true
+#- name:
+#    detail: IP Secure
+#    i18n: company_a
+#  desc:
+#    detail: Providing incident handling and analysis to support 24x7x365 operations.
+#    i18n: company_a_desc
+#  date:
+#    detail: Sept. 2019
+#    i18n: company_a_date
+#  job:
+#    detail: Incident Handler
+#    i18n: company_a_job
+#  icon: fa-briefcase
+#  present: true
 
 #- name:
 #    detail: Synack
