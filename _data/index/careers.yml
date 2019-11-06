@@ -15,36 +15,6 @@
   icon: fa-university
   present: true
 
-#- name:
-#    detail: IP Secure
-#    i18n: company_a
-#  desc:
-#    detail: Providing incident handling and analysis to support 24x7x365 operations.
-#    i18n: company_a_desc
-#  date:
-#    detail: Sept. 2019
-#    i18n: company_a_date
-#  job:
-#    detail: Incident Handler
-#    i18n: company_a_job
-#  icon: fa-briefcase
-#  present: true
-
-#- name:
-#    detail: Synack
-#    i18n: company_b
-#  desc:
-#    detail: Conduct vulnerability assessments, to include in-depth penetration testing on intranet, internet, web, wireless, etc on UNIX and Windows based platforms.
-#    i18n: company_b_desc
-#  date:
-#    detail: Aug. 2019
-#    i18n: company_b_date
-#  job:
-#    detail: Synack Red Team Hacker
-#    i18n: company_b_job
-#  icon: fa-terminal
-#  present: true
-
 - name:
     detail: Hackerone
     i18n: company_b
