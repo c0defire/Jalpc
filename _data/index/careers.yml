@@ -1,5 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: Accenture Federal Services
+    i18n: company_b
+  desc:
+    detail: Provided IDS monitoring and analysis, network traffic and log analysis, prioritization and differentiation between potential intrusion attempts, determination of false alarms, insider threat and APT detection, and malware analysis/forensics. Advised incident responders in the steps to take to investigate and resolve computer security incidents.
+    i18n: company_b_desc
+  date:
+    detail: Oct. 2019
+    i18n: company_b_date
+  job:
+    detail: Senior Cyber Security Analyst
+    i18n: company_b_job
+  icon: fa-briefcase
+  present: false
+
 - name:
     detail: Western Governors University
     i18n: company_b
@@ -7,7 +23,7 @@
     detail: Studied Cyber Security at Western Governors University, persuing a Masters in Cyber Security.
     i18n: company_b_desc
   date:
-    detail: Dec. 2019
+    detail: Jan. 2019
     i18n: company_b_date
   job:
     detail: College Student
