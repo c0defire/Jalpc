@@ -14,7 +14,7 @@
     detail: Senior Cyber Security Analyst
     i18n: company_b_job
   icon: fa-briefcase
-  present: false
+  present: true
 
 - name:
     detail: Western Governors University
