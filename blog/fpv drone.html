@@ -1,0 +1,21 @@
+---
+layout: blog
+title: FPV Drone
+permalink: /fpv drone/
+---
+
+<div id="particles-js"></div>
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
+
+{% for section in site.data.landing %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+
+{% endfor %}
+
+{% include category.html %}
+
+<script type="text/javascript" src="/particles.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->

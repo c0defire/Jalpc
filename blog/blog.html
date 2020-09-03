@@ -1,0 +1,75 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+<div id="particles-js"></div>
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
+
+{% for section in site.data.landing %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+
+{% endfor %}
+
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1>Latest Blog</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+            <!-- latest 10 blog -->
+			{% for post in site.posts limit:10 %}
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
+                            {{ post.title }}
+                        </a>
+                        <div class="vote-info">
+                        {% if site.disqus %}
+                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
+                        {% endif %}
+                            <i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>
+                            <i class="fa fa-user"></i> <a>{{ site.author.name }}</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            {% if post.icon %}<i class="fa {{ post.icon }}"> </i>{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+<style>
+iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
+<script type="text/javascript" src="/particles.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
